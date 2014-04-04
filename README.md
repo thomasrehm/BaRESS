@@ -12,7 +12,7 @@ Bachelor Thesis title:
 
 Title (german):
 »Optimierung der Website-Performance durch den Einsatz serverseitiger Komponenten und reaktionsfähigem Webdesign«
-======
+
 Abstract (german):
 Diese Bachelorarbeit beschäftigt sich mit der Optimierung von Webseiten-Performance und den Herausforderungen, denen Webentwickler gegenüberstehen. Anhand einer Beispiel-Webseite werden diverse Probleme betrachtet, die die Performance mindern. Um diese Probleme möglichst effektiv zu verbessern, werden konkrete Lösungsansätze und Techniken untersucht und umgesetzt. Die Optimierung wird für geräteunabhängige Webseitenaufrufe durchgeführt; im Verlauf der Bachelorarbeit aber speziell im Hinblick auf die Optimierung für mobile Aufrufe.
 
