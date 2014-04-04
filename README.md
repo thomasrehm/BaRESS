@@ -18,7 +18,6 @@ Diese Bachelorarbeit beschäftigt sich mit der Optimierung von Webseiten-Perform
 
 Examiner: Prof. Dr. Dieter Meiller
 
-======
 
 Beispiel-Webseite zu dieser Thesis wurde unter <a target="_blank" href="http://medinf.haw-aw.de/~rehm/baress/standard">medinf.haw-aw.de/~rehm/baress/standard/</a> gehostet. Sofern dieser Link nicht mehr funktionieren sollte, liegen alle benötigten Dateien in diesem Repo zum Download bereit.
 
