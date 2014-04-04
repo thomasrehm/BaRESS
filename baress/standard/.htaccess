@@ -1,0 +1,5 @@
+
+#bewusstes deaktivieren von gzip Kompression und Caching
+SetEnv no-gzip
+ExpiresActive off
+Header set Cache-Control: "no-cache, no-cache, no-store"

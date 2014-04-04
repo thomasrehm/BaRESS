@@ -1,0 +1,44 @@
+.fill{width:100%; height:100%; background-position: center; background-size: cover;}
+
+.responsiveContainer {
+  position: relative;
+  padding-bottom: 56%;
+  height: 0;
+  overflow: hidden;
+  background: #FFF;
+}
+
+.responsiveContainer iframe,
+.responsiveContainer object,
+.responsiveContainer embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;	
+}
+
+
+.true {background-color:green; color: #ffffff; border-radius: 2px; padding: 2px; }
+.false {background-color:red; color: #ffffff; border-radius: 2px;  padding: 2px;}
+
+
+/*
+Make the Facebook Like box responsive (fluid width)
+https://developers.facebook.com/docs/reference/plugins/like-box/
+*/
+
+/*
+This element holds injected scripts inside iframes that in
+some cases may stretch layouts. So, we're just hiding it.
+*/
+
+#fb-root {
+  display: none;
+}
+
+/* To fill the container and nothing else */
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+}
