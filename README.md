@@ -18,8 +18,9 @@ Diese Bachelorarbeit beschäftigt sich mit der Optimierung von Webseiten-Perform
 
 Examiner: Prof. Dr. Dieter Meiller
 
+======
 
-Beispiel-Webseite zu dieser Thesis wurde unter <a target="_blank" href="http://medinf.haw-aw.de/~rehm/baress/standard">medinf.haw-aw.de/~rehm/baress/standard/</a> gehostet. Sofern dieser Link nicht mehr funktionieren sollte, liegen alle benötigten Dateien in diesem Repo zum Download bereit.
+Die urpsrüngliche Beispiel-Webseite zu dieser Thesis ist unter <a target="_blank" href="http://medinf.haw-aw.de/~rehm/baress/standard">medinf.haw-aw.de/~rehm/baress/standard/</a> zu finden. Sofern dieser Link nicht mehr funktionieren sollte, liegen alle benötigten Dateien in diesem Repo zum Download bereit.
 
 Um das RESS-System zum laufen zu bringen, müssen wahrscheinlich in den htaccess-Dateien die korrekten Pfade eingetragen werden. Ebenso muss ein eigener WURFL-Cloud API-Key eingetragen werden, ansonsten funktioniert die Abfrage der WURFL-Tests nicht. Dieser kann <a target="_blank" href="https://scientiamobile.com/cloud/signup/free">>hier<</a> beantragt werden.
 
