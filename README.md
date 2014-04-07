@@ -20,8 +20,8 @@ Examiner: Prof. Dr. Dieter Meiller
 
 ======
 
-Die urpsrüngliche Beispiel-Webseite zu dieser Thesis ist unter <a target="_blank" href="http://medinf.haw-aw.de/~rehm/baress/standard">medinf.haw-aw.de/~rehm/baress/standard/</a> zu finden. Sofern dieser Link nicht mehr funktionieren sollte, liegen alle benötigten Dateien in diesem Repo zum Download bereit.
+Die urpsrüngliche Beispiel-Webseite zu dieser Thesis ist unter <a target="_blank" href="http://medinf.haw-aw.de/~rehm/baress/standard">medinf.haw-aw.de/~rehm/baress/standard/</a> zu finden. Sofern dieser Link nicht mehr funktionieren sollte, liegen alle benötigten Dateien in diesem Repository zum Download bereit.
 
+Zum lokalen Betrieb der BaRESS-Webseite wird ein Apache-Webserver mit PHP benötigt. Klonen Sie das Repository und kopieren Sie den gesamten baress-Ordner in Ihr lokales Document Root Verzeichnis des Apache-Webservers. Nun könne Sie die Standart-Variante unter localhost/baress/standard/ erreichen.
 Um das RESS-System zum laufen zu bringen, müssen wahrscheinlich in den htaccess-Dateien die korrekten Pfade eingetragen werden. Ebenso muss ein eigener WURFL-Cloud API-Key eingetragen werden, ansonsten funktioniert die Abfrage der WURFL-Tests nicht. Dieser kann <a target="_blank" href="https://scientiamobile.com/cloud/signup/free">>hier<</a> beantragt werden.
-
-======
+In der Datei /baress/ress/_inc/wurfltest.php muss der API-Key in die Variable $config->api_key eingetragen werden.
