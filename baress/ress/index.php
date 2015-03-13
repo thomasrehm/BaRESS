@@ -12,7 +12,7 @@ require_once 'wurfl/src/autoload.php';
 $config = new ScientiaMobile\WurflCloud\Config();
 
 // Set your WURFL Cloud API Key
-$config->api_key = '319214:jnfdVYN1mFBvWya6DZLuETRh7kleKGsS';
+$config->api_key = '';
 
 // Create the WURFL Cloud Client
 $client = new ScientiaMobile\WurflCloud\Client($config);
